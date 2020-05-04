@@ -2,10 +2,10 @@ const path = require('path');
 
 module.exports = (Franz, options) => {
   const getMessages = () => {
-    const allMessages = parseInt(document.querySelectorAll('.unread-badge')[1].getAttribute('data-badge-count'));
+    const messageCount = parseInt(document.querySelectorAll('.js-notification-inboxes .count')[0].innerText);
 
     // set Franz badge
-    Franz.setBadge(allMessages);
+    Franz.setBadge(messageCount);
   };
 
 

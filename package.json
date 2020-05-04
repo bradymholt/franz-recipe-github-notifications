@@ -1,12 +1,12 @@
 {
-  "id": "basecamp",
-  "name": "basecamp",
+  "id": "github-notifications",
+  "name": "github-notifications",
   "version": "1.0.0",
-  "description": "Basecamp",
+  "description": "GitHub",
   "main": "index.js",
   "author": "Brady Holt <brady.holt@gmail.com>",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://launchpad.37signals.com/signin"
+    "serviceURL": "https://github.com/notifications"
   }
 }
